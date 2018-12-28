@@ -3,12 +3,21 @@
   "version": "1.0.0",
   "main": "index.js",
   "private": true,
+  "scripts": {
+    "test": "jest"
+  },
   "author": "Albert Agram <albert.agram@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "7.2.0",
     "@babel/preset-env": "7.2.0",
-    "@babel/preset-react": "7.0.0"
+    "@babel/preset-react": "7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "react-dom": "16.4.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "react": "16.4.1"
+  }
 }
