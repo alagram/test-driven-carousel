@@ -1,0 +1,8 @@
+{
+  "name": "test-driven-carousel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "author": "Albert Agram <albert.agram@gmail.com>",
+  "license": "MIT"
+}
