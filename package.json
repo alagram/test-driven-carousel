@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "lint": "eslint",
-    "format": "prettier-eslint"
+    "format": "prettier-eslint",
+    "build": "webpack"
   },
   "author": "Albert Agram <albert.agram@gmail.com>",
   "license": "MIT",
@@ -18,6 +19,7 @@
     "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "10.0.1",
     "babel-jest": "23.6.0",
+    "babel-loader": "8.0.4",
     "enzyme": "3.8.0",
     "enzyme-adapter-react-16": "1.7.1",
     "eslint": "5.10.0",
@@ -25,7 +27,9 @@
     "eslint-plugin-react": "7.11.1",
     "jest": "23.6.0",
     "prettier-eslint-cli": "4.7.1",
-    "react-dom": "16.4.1"
+    "react-dom": "16.4.1",
+    "webpack": "4.26.1",
+    "webpack-cli": "3.1.2"
   },
   "dependencies": {
     "prop-types": "15.6.2",
