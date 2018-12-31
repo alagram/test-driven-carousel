@@ -7,7 +7,8 @@
     "test": "jest",
     "lint": "eslint",
     "format": "prettier-eslint",
-    "build": "webpack"
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
   },
   "author": "Albert Agram <albert.agram@gmail.com>",
   "license": "MIT",
@@ -30,7 +31,8 @@
     "prettier-eslint-cli": "4.7.1",
     "react-dom": "16.4.1",
     "webpack": "4.26.1",
-    "webpack-cli": "3.1.2"
+    "webpack-cli": "3.1.2",
+    "webpack-dev-server": "3.1.10"
   },
   "dependencies": {
     "prop-types": "15.6.2",
