@@ -2,6 +2,7 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import Carousel from '../Carousel';
 import CarouselButton from '../CarouselButton';
+import CarouselSlide from '../CarouselSlide';
 
 describe('Carousel', () => {
   let wrapper;
@@ -25,7 +26,7 @@ describe('Carousel', () => {
   ];
 
   beforeEach(() => {
-    wrapper = shallow(<Carousel />);
+    wrapper = shallow(<Carousel slides={slides} />);
   });
 
   it('renders a <div>', () => {
